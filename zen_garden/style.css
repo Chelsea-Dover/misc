@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Arimo);
+
+.header {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jumboTron {
+    background-color: #000000;
+    padding: 31px 149px 87px;
+    color: #CDD7D6;
+    text-align: center;
+}
+
+.theRoad {
+    margin: 0;
+    padding-top: 44px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.zenGarden {
+    display: none;
+}
+
+body {
+    margin: 0;
+    min-width: 899px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.mainHeader {
+    margin: 0 7px;
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 1326px){
+        nav {
+        margin-left: 32%;
+    }
+}
+
+header {
+    background-color: #102542;
+    color: #FFF;
+    border-bottom: solid #F87060 4px;
+    min-width: 901px;
+
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 11px;
+}
+
+li > a {
+    color: #FFF;
+}
+
+li > a:hover {
+    color:#CDD7D6;
+}
+
+ul {
+    margin-bottom: 10px;
+}
+
+.about {
+    display: inline-block;
+    vertical-align: top;
+    width: 411px;
+    height: 323px;
+    margin: 10px;
+    text-align: center;
+}
+
+p > a {
+    color: #214373;
+}
+
+p > a:hover {
+    color: #001A3F;
+}
+
+.firstAbout {
+    margin-left: 73px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    min-width: 1364px;
+    margin-top: 24px;
+}
